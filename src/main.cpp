@@ -5,11 +5,11 @@
 
 // Replace with your network credentials
 const char *ssid = "IoTWiFi";
-const char *password = "";
+const char *password = "YourPassword";
 
 // API endpoint and authentication token
-const char *serverName = "https://davepl.indigodomo.net/v2/api/command";
-const char *authToken = "";
+const char *serverName = "https://xxxxx.indigodomo.net/v2/api/command";
+const char *authToken = "YourAuthToken";
 
 // JSON data to send
 const char *jsonData = "{\"message\": \"indigo.actionGroup.execute\", \"objectId\": 1901754189}";
